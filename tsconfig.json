@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "types": ["node", "mime-types"],
+        "jsx": "react",
+        "lib": ["esnext"],
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "declaration": false,
+        "noEmitOnError": true,
+        "allowJs": false,
+        "allowUnusedLabels": false,
+        "noImplicitReturns": true,
+        "allowUnreachableCode": false,
+        "forceConsistentCasingInFileNames": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./built",
+        "noUnusedLocals": true,
+        "noErrorTruncation": true,
+        "noImplicitThis": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noStrictGenericChecks": true,
+        "strictFunctionTypes": false
+    },
+    "include": [
+        "./*.ts"
+    ]
+}
